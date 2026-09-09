@@ -1,0 +1,13 @@
+# SafeDataBackup - ローカルデータはGithubに上げない
+.SafeDataBackup/
+*.db
+*.enc
+*.key
+*.log
+*.bak
+__pycache__/
+dist/
+build/
+*.exe
+.venv/
+venv/
