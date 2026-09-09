@@ -11,3 +11,5 @@ build/
 *.exe
 .venv/
 venv/
+config.json
+backup_history.json
