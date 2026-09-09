@@ -1,135 +1,219 @@
 # SafeDataBackup v1.0.0
 
-### 高信頼・高機能なWindows向けバックアップアプリ
+高信頼・高機能なWindows向けバックアップアプリです。
 
-Python + Tkinter GUIの単一ファイルで動く、完全オフラインの安全なバックアップソリューションです。
+## 概要
 
-- ✅ 完全オフライン / 外部送信なし
-- ✅ VSSシャドウコピー対応 - 使用中ファイルも安全にバックアップ
-- ✅ AES暗号化・重複排除・差分保存対応
+SafeDataBackupは、Windows向けのオフラインバックアップ・復元ソフトウェアです。
 
-**最新安定版：v1.0.0** | **単一ファイル版**
+* Python + Tkinter
+* 完全オフライン動作
+* バックアップ・復元
+* 増分・差分バックアップ
+* ZIP圧縮
+* AES暗号化
+* VSS対応
+* 重複排除
+* 世代管理
+* バックアップデータの整合性検証
+* ログ・履歴管理
 
-## ⬇ ダウンロード
+重要なデータを複数の方法・保存先へバックアップすることを目的としています。
 
-[最新版 v1.0.0 をダウンロード]([https://github.com/Unknown777hello/SafeDataBackup/releases/tag/v1.0.0](https://github.com/Unknown777hello/SafeDataBackup/releases))
+## 最新バージョン
 
-- Windows 10 / 11 (64bit) 対応
-- インストーラー版 / ポータブル版あり（予定）
-- インターネット接続不要
+**v1.0.0**
 
-## 今回のアップデート (v1.0.0)
-- 公開リリース版として `0.1.0` から `1.0.0` にバージョン更新
-- トレイメニュー「最近の履歴」でトレイアイコンが停止する不具合を修正 - `functools.partial` への置換で `pystray` のシグネチャ検証に対応
-- ウィンドウを閉じてもトレイに格納されない不具合を修正 - `TrayIcon.start()` の例外ハンドリングと二重起動防止ロジックを改善
-- Zip Slip対策、復元前空き容量チェック、SHA-256復元後検証、分割アーカイブ全パート検証を追加
+### ダウンロード
+
+[最新版 v1.0.0 をダウンロード](https://github.com/Unknown777hello/SafeDataBackup/releases/tag/v1.0.0)
+
+## 対応環境
+
+* Windows 10 / 11
+* 64bit
+* Python 3.10以降推奨
+* Python 3.8以降でも動作する場合があります
+
+インターネット接続は必要ありません。
+
+## v1.0.0の主な変更
+
+* バージョンをv1.0.0へ更新
+* システムトレイ関連の不具合を修正
+* Zip Slip対策を追加
+* 復元前の空き容量チェックを追加
+* 復元後のSHA-256検証を追加
+* 分割アーカイブの全パート検証を追加
 
 ## 主な機能
-- フル / 増分 / 差分バックアップ対応、世代管理・保持ポリシー
-- VSSシャドウコピー対応 (Windows) - Outlookの.pstなどロック中ファイルも読取可能
-- ローリングハッシュによるバイナリ差分保存 - 100MB以上の大容量ファイルは変更ブロックのみ保存
-- 重複排除 (DedupStore) - 内容ハッシュで重複ファイルを1回だけ保存
-- 分割アーカイブ - サイズ上限ごとに自動分割（既定2000MB）、全パート個別チェックサム検証
-- クラッシュレジューム - 50件ごとにチェックポイント作成、電源断後も続きから再開
-- Zip Slip (ディレクトリトラバーサル) 対策、復元後SHA-256検証、空き容量事前チェック
-- AES暗号化 (pyzipper)、Argon2idマスターパスワード保護、OS資格情報ストア保存 (keyring)
-- ランサムウェア対策 - カナリアファイル保護、大量リネーム検知、ソース消失保護
-- システムトレイ常駐 (pystray)、二重起動防止、バイト数ベースの正確な進捗率・残り時間
-- ドラッグ&ドロップ対応 (tkinterdnd2)、アーカイブ内容検索、スケジューラー内蔵、外部ミラー同期
-- ダークモード (sv_ttk + darkdetect でOSテーマ自動追従)、ミニ進捗ウィンドウ、ディスクI/O自動調整 (psutil)
-- 改ざん検知ログ、ログの個人情報マスキング (<HOME>/<USER>)、拡張長パス対応、ロック中ファイルのリトライ
 
-## インストール方法
-### インストーラー版（予定）
-1. `SafeDataBackup_Setup.exe` をダウンロードして実行
-2. 画面に従ってインストール
-3. スタートメニューから起動
+### バックアップ
 
-インストール後、以下のファイルがアプリフォルダに配置されます：
-```
-SafeDataBackup.exe
-README.txt
-LICENSE.md
-THIRD-PARTY-LICENSES.txt
-LICENSES/
-app_icon.ico
-```
+* フルバックアップ
+* 増分バックアップ
+* 差分バックアップ
+* 世代管理
+* バックアップ履歴管理
+* 除外パターン
+* VSSによるロックファイルへの対応
+* 100MB以上のファイルに対するローリングハッシュ方式の差分検出
+* 重複排除ストレージ
 
-### Python版 (v1.0.0)
+### アーカイブ
+
+* ZIP圧縮
+* AES暗号化
+* 分割アーカイブ
+* 分割ファイルのチェックサム検証
+* デフォルト分割サイズ2,000MB
+* Zip Slip対策
+
+### 復元
+
+* バックアップからの復元
+* 復元前の空き容量チェック
+* 復元後のSHA-256検証
+* ロックファイルへの再試行
+* 長いパスへの対応
+
+### 障害対策
+
+* 50項目ごとのクラッシュ復旧
+* バックアップ処理の再開
+* 整合性チェック
+* ハッシュ検証
+* 改ざん検知ログ
+
+### セキュリティ
+
+* AES暗号化
+* Argon2idによるマスターパスワード保護
+* OSのKeyringを利用した鍵管理
+* ランサムウェア対策
+* PII（個人情報）のログ出力マスキング
+* Zip Slip対策
+
+### その他
+
+* システムトレイ常駐
+* 多重起動防止
+* ドラッグ＆ドロップ
+* 正確なバイト単位の進捗表示
+* アーカイブ検索
+* スケジューラー
+* 外部ミラーへの同期
+* ダークモード
+* ミニ進捗表示
+* psutilによるディスクI/O負荷調整
+
+## インストール
+
+インストーラー版 / ポータブル版を予定しています。
+
+配布物には以下のファイルを含めます。
+
+* SafeDataBackup.exe
+* README.txt
+* LICENSE.md
+* THIRD-PARTY-LICENSES.txt
+* LICENSES/
+* アプリケーションアイコン
+
+## Python版の実行
+
+必要なPythonパッケージをインストールしてください。
 
 ```bash
-# 推奨フルセット
-pip install pyzipper pystray pillow tkinterdnd2 sv_ttk darkdetect argon2-cffi keyring psutil zstandard
-
-# 実行
-python SafeDataBackup.py
-
-# バージョン確認
-python SafeDataBackup.py --version
+pip install pyzipper pystray Pillow tkinterdnd2 sv-ttk darkdetect zstandard argon2-cffi keyring psutil
 ```
 
-単一ファイルなので `SafeDataBackup.py` だけをUSBに入れて持ち運びも可能です。設定・履歴は同階層の `config.json` / `backup_history.json` に自動生成されます。
+Python標準ライブラリについては、Python本体に含まれるものを使用します。
 
-## 使い方
-1. 対象フォルダを指定（ドラッグ&ドロップ対応）
-2. 保存先を指定（分割保存は設定でON）
-3. フル / 増分 / 差分を選択してバックアップ実行
-4. 履歴から選択して復元（SHA-256検証オプションあり）
-5. ウィンドウを閉じるとトレイに格納 - トレイメニューから「今すぐバックアップ」「最近の履歴」
+## 設定・履歴
+
+アプリケーションの設定やバックアップ履歴は、ローカル環境に保存されます。
+
+主なファイル：
+
+* `config.json`
+* `backup_history.json`
+
+これらには設定情報やバックアップ履歴などが含まれる場合があります。
+
+GitHubなどへ公開する場合は、個人情報やローカル環境の情報が含まれていないことを確認してください。
+
+## オフライン動作
+
+SafeDataBackupは基本的に完全オフラインで動作します。
+
+バックアップデータやファイル情報を開発者のサーバーへ自動送信する機能はありません。
+
+詳細については、`PRIVACY.md`を確認してください。
+
+## 第三者ライブラリ
+
+SafeDataBackupでは、以下のようなオープンソース・第三者ライブラリを使用しています。
+
+* pyzipper - MIT License
+* pystray - LGPL-3.0
+* Pillow - HPND
+* tkinterdnd2 - MIT License
+* sv-ttk - MIT License
+* darkdetect - BSD-3-Clause
+* zstandard - BSD-3-Clause
+* argon2-cffi - MIT License
+* keyring - MIT License
+* psutil - BSD-3-Clause
+* Python Standard Library - PSF License等
+* SQLite - Public Domain
+
+各ライブラリの詳細なライセンスについては、`THIRD-PARTY-LICENSES.txt`および`LICENSES/`を確認してください。
 
 ## ライセンス
 
-### 同梱ファイルについて
-公開ZIP (SafeDataBackup_vX.X.X.zip) と Inno Setup インストーラー (SafeDataBackup_Setup.exe) には、以下のライセンスファイルが同梱されています。
-- LICENSE.md : 自作コードのライセンス (SafeDataBackup License v1.0)
-- THIRD-PARTY-LICENSES.txt : 第三者ライブラリのライセンス一覧
-- LICENSES/ : 第三者ライセンス原文
-- README.txt
+本プロジェクトの自作コードには、独自ライセンスである**SafeDataBackup License v1.3**を適用します。
 
-### 自作コード
-本プロジェクトの自作コードには、独自ライセンス「SafeDataBackup License v1.0」を適用します（MITではありません）。
-Copyright (c) 2026 Unknown777hello (aka Unknown777)
+詳細は`LICENSE.md`を確認してください。
 
-主な条件（詳細は LICENSE.md を必ず確認）:
-- 個人の非商用利用は無償・自由
-- Python版は学習・レビュー目的の閲覧・実行を許可
-- 改造版の再配布には事前許可が必要。Forkは学習・PR目的に限り自由
-- 商用利用は要許可（紹介動画・ブログは収益化しても自由）
-- 現状有姿で提供、法令の範囲内で免責
+第三者ライブラリについては、それぞれのライセンス条件が優先されます。
 
-### 第三者ライブラリ
-詳細は THIRD-PARTY-LICENSES.txt を参照
-- pyzipper - MIT / BSD系 (AES暗号化)
-- pystray / Pillow - LGPL-3.0 / HPND
-- tkinterdnd2 - MIT
-- sv_ttk - MIT
-- darkdetect - BSD-3-Clause
-- argon2-cffi - MIT
-- keyring - MIT
-- psutil - BSD-3-Clause
-- zstandard - BSD-3-Clause
-- Python標準ライブラリ - PSF License
+## データ損失に関する注意
 
-## 要件
-- Windows 10 / 11 (64bit) 推奨（VSSはWindowsのみ、基本機能はLinux/macOSでも動作）
-- Python 3.10+ 推奨 (3.8+で動作)
+SafeDataBackupはバックアップおよび復元を支援するソフトウェアですが、ハードウェア障害、記録媒体の故障、OSやファイルシステムの問題、停電、ソフトウェア上の不具合などによるデータ損失や復元失敗を完全に防止できるものではありません。
+
+重要なデータについては、複数の保存先・複数のバックアップ方法を併用することを推奨します。
+
+「高信頼」「安全」などの表現は、すべての環境でデータ損失を防止できることを保証するものではありません。
 
 ## プライバシー
-本アプリは完全オフラインで動作し、外部へのデータ送信は一切行いません。バックアップデータはすべてローカルに保存され、暗号化はローカルで完結します。詳細は PRIVACY.md をご覧ください。
 
-注意：本ツールはご自身が所有・管理するデータ、または所有者から明確な許可を得た範囲でのみご使用ください。
+SafeDataBackupは、ユーザーが選択したファイルやフォルダーを処理します。
+
+個人情報、ファイル情報、バックアップデータなどを開発者が外部サーバーへ自動収集・保存・分析することはありません。
+
+詳細については`PRIVACY.md`を確認してください。
+
+## セキュリティに関する報告
+
+セキュリティ上の問題を発見した場合は、公開Issueへパスワード、暗号化キー、個人ファイル、認証情報などの機密情報を投稿しないでください。
+
+問題の再現に必要な最小限の情報のみを使用してください。
+
+## リポジトリ
+
+GitHub:
+
+https://github.com/Unknown777hello/SafeDataBackup
 
 ## 作者
-Unknown777hello (aka Unknown777)
-Repository: https://github.com/Unknown777hello/SafeDataBackup
 
+Unknown777hello (Unknown777)
 
-## ⚠️ 重要な注意事項
+---
 
-SafeDataBackupは、バックアップおよび復元を支援するためのソフトウェアです。
+**注意**
 
-本ソフトウェアは可能な限り安全な処理および整合性確認を行いますが、ハードウェア障害、ストレージ障害、OSやファイルシステムの問題、予期しない電源断、ソフトウェア上の不具合、その他の原因によるデータ消失や復元不能を完全に防止するものではありません。
+本ソフトウェアは「すべてのデータ損失を防ぐこと」を保証するものではありません。
 
-重要なデータについては、SafeDataBackupだけに依存せず、複数の保存先やバックアップ方法を併用することを推奨します。
-
-「高信頼」「安全」といった表現は、絶対的なデータ保全を保証するものではありません。
+重要なデータは、異なる媒体・保存先へ複数世代バックアップすることを推奨します。
