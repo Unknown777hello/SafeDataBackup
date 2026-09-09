@@ -1,199 +1,196 @@
-THIRD PARTY LICENSES
-SafeDataBackup - Third Party Open Source Licenses
+SafeDataBackup v1.0.0+
+Third-Party Licenses
 
-適用バージョン: v1.0.0 以降
-最終更新: 2026-09-09
-ライセンス: SafeDataBackup License v1.3 (LICENSE.md)
+最終更新日: 2026-09-09
 
-本ファイルは SafeDataBackup が使用している第三者ライブラリのライセンス情報を記載しています。
+SafeDataBackupは、以下の第三者製ソフトウェアおよびライブラリを使用しています。
 
-SafeDataBackupの自作コードには独自ライセンスが適用されますが、以下の第三者ライブラリおよび関連コンポーネントには、それぞれのライセンス条件が優先して適用されます（LICENSE.md 第8条）。
+本ファイルに記載されている第三者ソフトウェアには、それぞれ独自のライセンス条件があります。
 
----
+第三者ソフトウェアについては、本ソフトウェア独自のSafeDataBackup License v1.3よりも、それぞれの第三者ライセンスが優先して適用されます。
 
-## 1. pyzipper - MIT License
-
-* Package: pyzipper
-* 用途: AES暗号化ZIPの作成・読み込み
-* License: MIT License
-* Source: https://github.com/danifus/pyzipper
-* ライセンス全文: LICENSES/pyzipper-MIT.txt
+詳細なライセンス本文については、リポジトリ内の `LICENSES/` フォルダーを参照してください。
 
 ---
 
-## 2. pystray - LGPL-3.0
+## 1. pyzipper
 
-* Package: pystray
-* 用途: システムトレイ常駐機能
-* License: GNU Lesser General Public License v3 (LGPLv3)
-* Source: https://github.com/moses-palmer/pystray
-* ライセンス全文: LICENSES/pystray-LGPL-3.0.txt
+License: MIT License
 
----
+pyzipperは、暗号化ZIPおよびZIP関連処理に使用しています。
 
-## 3. Pillow - HPND
+ライセンス本文:
 
-* Package: Pillow
-* 用途: システムトレイアイコン、画像処理等
-* License: HPND
-* Source: https://github.com/python-pillow/Pillow
-* ライセンス全文: LICENSES/Pillow-HPND.txt
+`LICENSES/pyzipper-LICENSE.txt`
 
 ---
 
-## 4. tkinterdnd2 - MIT License
+## 2. pystray
 
-* Package: tkinterdnd2
-* 用途: ドラッグ&ドロップ対応
-* License: MIT License
-* Source: https://github.com/Eliav2/tkinterdnd2
-* ライセンス全文: LICENSES/tkinterdnd2-MIT.txt
+License: GNU Lesser General Public License v3.0 (LGPL-3.0)
 
----
+pystrayは、システムトレイ機能に使用しています。
 
-## 5. sv-ttk - MIT License
+ライセンス本文:
 
-* Package: sv-ttk
-* 用途: Tkinter/ttkのUIテーマ
-* License: MIT License
-* Source: https://github.com/rdbende/Sun-Valley-ttk-theme
-* ライセンス全文: LICENSES/sv-ttk-MIT.txt
+`LICENSES/pystray-LICENSE.txt`
 
 ---
 
-## 6. darkdetect - BSD-3-Clause
+## 3. Pillow
 
-* Package: darkdetect
-* 用途: Windows等のOSテーマ（ライト・ダーク）の検出
-* License: BSD-3-Clause
-* Source: https://github.com/albertosottile/darkdetect
-* ライセンス全文: LICENSES/darkdetect-BSD-3-Clause.txt
+License: Historical Permission Notice and Disclaimer (HPND)
 
----
+Pillowは、画像・アイコン等の処理に使用しています。
 
-## 7. zstandard - BSD-3-Clause
+ライセンス本文:
 
-* Package: zstandard
-* 用途: Zstandard圧縮
-* License: BSD-3-Clause
-* Source: https://github.com/indygreg/python-zstandard
-* ライセンス全文: LICENSES/zstandard-BSD-3-Clause.txt
+`LICENSES/Pillow-LICENSE.txt`
 
 ---
 
-## 8. argon2-cffi - MIT License
+## 4. tkinterdnd2
 
-* Package: argon2-cffi
-* 用途: パスワードの安全なハッシュ化・検証
-* License: MIT License
-* Source: https://github.com/hynek/argon2_cffi
-* ライセンス全文: LICENSES/argon2-cffi-MIT.txt
+License: MIT License
 
----
+tkinterdnd2は、ドラッグ＆ドロップ機能に使用しています。
 
-## 9. keyring - MIT License
+ライセンス本文:
 
-* Package: keyring
-* 用途: OSが提供する資格情報・秘密情報ストレージへのアクセス
-* License: MIT License
-* Source: https://github.com/jaraco/keyring
-* ライセンス全文: LICENSES/keyring-MIT.txt
+`LICENSES/tkinterdnd2-LICENSE.txt`
 
 ---
 
-## 10. psutil - BSD-3-Clause
+## 5. sv-ttk
 
-* Package: psutil
-* 用途: CPU、メモリ、ディスク容量等のシステム情報取得
-* License: BSD-3-Clause
-* Source: https://github.com/giampaolo/psutil
-* ライセンス全文: LICENSES/psutil-BSD-3-Clause.txt
+License: MIT License
+
+sv-ttkは、Tkinterのテーマ・UI表示に使用しています。
+
+ライセンス本文:
+
+`LICENSES/sv-ttk-LICENSE.txt`
+
+---
+
+## 6. darkdetect
+
+License: BSD 3-Clause License
+
+darkdetectは、OSのライト・ダークテーマ判定に使用しています。
+
+ライセンス本文:
+
+`LICENSES/darkdetect-LICENSE.txt`
+
+---
+
+## 7. zstandard
+
+License: BSD 3-Clause License
+
+zstandardは、Zstandard圧縮処理に使用しています。
+
+ライセンス本文:
+
+`LICENSES/zstandard-LICENSE.txt`
+
+---
+
+## 8. argon2-cffi
+
+License: MIT License
+
+argon2-cffiは、パスワード・認証情報に関連するハッシュ処理に使用しています。
+
+ライセンス本文:
+
+`LICENSES/argon2-cffi-LICENSE.txt`
+
+---
+
+## 9. keyring
+
+License: MIT License
+
+keyringは、OSの認証情報ストレージ等を利用するために使用しています。
+
+ライセンス本文:
+
+`LICENSES/keyring-LICENSE.txt`
+
+---
+
+## 10. psutil
+
+License: BSD 3-Clause License
+
+psutilは、ディスクI/Oやシステムリソース情報の取得等に使用しています。
+
+ライセンス本文:
+
+`LICENSES/psutil-LICENSE.txt`
 
 ---
 
 ## 11. Python Standard Library
 
-SafeDataBackupでは、Python標準ライブラリの以下のようなモジュールを使用します。
+License: Python Software Foundation License 2.0 および各標準ライブラリに適用されるライセンス
 
-* tkinter
-* pathlib
-* hashlib
-* json
-* os
-* sys
-* shutil
-* zipfile
-* tempfile
-* logging
-* threading
-* datetime
-* sqlite3
-* その他のPython標準ライブラリ
+SafeDataBackupはPython標準ライブラリを使用しています。
 
-Python Software Foundation License 2.0等、各コンポーネントに適用されるライセンス条件に従います。
+Python標準ライブラリには複数のコンポーネントが含まれており、個別のライセンス条件が存在する場合があります。
 
-Python:
-https://www.python.org/
+詳細:
+
+https://docs.python.org/3/license.html
 
 ---
 
 ## 12. SQLite
 
-* Package: SQLite
-* 用途: ローカルデータ管理等
-* License: Public Domain
-* Copyright: D. Richard Hipp
-* Source: https://www.sqlite.org/
+License: Public Domain
 
-SQLiteはPublic Domainとして提供されています。
+SafeDataBackupでは、SQLiteをデータ保存等の目的で使用しています。
+
+SQLiteはパブリックドメインとして提供されています。
+
+詳細:
+
+https://www.sqlite.org/copyright.html
 
 ---
 
-# 配布物への同梱について
+# Third-Party License Priority
 
-### インストーラー版
+SafeDataBackupの独自ライセンスと第三者ソフトウェアのライセンス条件が異なる場合、該当する第三者ソフトウェアについては、その第三者ライセンスが優先されます。
 
-インストール先に以下を同梱します。
+特にLGPL等のコピーレフト系ライセンスについては、配布方法、リンク方法、変更の有無等によって追加の義務が発生する可能性があります。
 
-* `{app}\LICENSE.md`
-* `{app}\THIRD-PARTY-LICENSES.txt`
-* `{app}\LICENSES\`
+そのため、SafeDataBackupを再配布・改変・パッケージ化する場合は、各依存ライブラリの実際の使用バージョンおよび依存関係を確認し、それぞれの最新のライセンス条件と同梱すべきライセンス通知を確認してください。
 
-### Python版
+また、依存ライブラリがさらに別のライブラリを使用している場合（transitive dependencies）、それらについても個別のライセンス条件や通知義務が存在する可能性があります。
 
-リポジトリまたは配布パッケージに以下を同梱します。
+---
+
+# Distribution Requirements
+
+SafeDataBackupのインストーラー、ポータブル版、Pythonソースコードその他の配布物には、必要に応じて以下のファイルを同梱してください。
 
 * `LICENSE.md`
 * `THIRD-PARTY-LICENSES.txt`
 * `LICENSES/`
 
-第三者ライブラリのライセンス全文は、`LICENSES/` フォルダ内に対応するファイルとして収録します。
+配布時には、実際に同梱されているライブラリ・バージョンと本ファイルの記載内容に差異がないことを確認してください。
+
+ライブラリの更新や依存関係の変更を行った場合は、本ファイルおよび `LICENSES/` の内容も必要に応じて更新してください。
 
 ---
 
-# 推奨 requirements.txt
+# Disclaimer
 
-```text
-pyzipper
-pystray
-Pillow
-tkinterdnd2
-sv-ttk
-darkdetect
-zstandard
-argon2-cffi
-keyring
-psutil
-```
+第三者ソフトウェアは、それぞれの作者または権利者によって提供されています。
 
----
+第三者ソフトウェアの品質、動作、セキュリティ、可用性等について、SafeDataBackupの作者は保証するものではありません。
 
-# 注意事項
-
-各第三者ライブラリについては、それぞれのライセンス条件が適用されます。
-
-SafeDataBackupの独自ライセンスによって、第三者ライブラリのライセンス条件が変更されることはありません。
-
-特にLGPL等のライセンスが適用されるライブラリについては、対象ライブラリ自身のライセンス条件を確認した上で配布してください。
-
-また、各ライブラリの依存関係に含まれる追加の第三者コンポーネントについても、実際の配布形態に応じて個別のライセンス表示が必要となる場合があります。
+各第三者ソフトウェアの利用条件については、それぞれのライセンス本文を確認してください。
