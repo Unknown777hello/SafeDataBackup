@@ -12,7 +12,7 @@ Python + Tkinter GUIの単一ファイルで動く、完全オフラインの安
 
 ## ⬇ ダウンロード
 
-[最新版 v1.0.0 をダウンロード](https://github.com/Unknown777hello/SafeDataBackup/releases/tag/v1.0.0)
+[最新版 v1.0.0 をダウンロード]([https://github.com/Unknown777hello/SafeDataBackup/releases/tag/v1.0.0](https://github.com/Unknown777hello/SafeDataBackup/releases))
 
 - Windows 10 / 11 (64bit) 対応
 - インストーラー版 / ポータブル版あり（予定）
@@ -23,11 +23,6 @@ Python + Tkinter GUIの単一ファイルで動く、完全オフラインの安
 - トレイメニュー「最近の履歴」でトレイアイコンが停止する不具合を修正 - `functools.partial` への置換で `pystray` のシグネチャ検証に対応
 - ウィンドウを閉じてもトレイに格納されない不具合を修正 - `TrayIcon.start()` の例外ハンドリングと二重起動防止ロジックを改善
 - Zip Slip対策、復元前空き容量チェック、SHA-256復元後検証、分割アーカイブ全パート検証を追加
-
-## バックアップ画面のスクリーンショット
-<img width="1200" alt="SafeDataBackup Screenshot" src="https://github.com/user-attachments/assets/placeholder-backup.png" />
-
-> スクリーンショットは準備中です。ダークモード、トレイ常駐、進捗表示に対応しています。
 
 ## 主な機能
 - フル / 増分 / 差分バックアップ対応、世代管理・保持ポリシー
