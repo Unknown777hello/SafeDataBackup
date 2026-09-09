@@ -1,87 +1,91 @@
 # Contributor Covenant Code of Conduct
 
-## Our Pledge
+## 行動規範
 
-We as members, contributors, and leaders of the SafeDataBackup project pledge to make participation in our community a harassment-free experience for everyone, regardless of age, body size, visible or invisible disability, ethnicity, sex characteristics, gender identity and expression, level of experience, education, socio-economic status, nationality, personal appearance, race, religion, or sexual identity and orientation.
+私たちは、SafeDataBackupプロジェクトに参加するすべての人が、年齢、性別、経験、技術的知識その他の背景にかかわらず、安全かつ建設的に参加できる環境を目指します。
 
-We pledge to act and interact in ways that contribute to an open, welcoming, diverse, inclusive, and healthy community.
+この行動規範は、プロジェクトのIssue、Pull Request、レビュー、その他のコミュニケーションに適用されます。
 
-## Our Standards
+## 私たちが期待する行動
 
-Examples of behavior that contributes to a positive environment for the SafeDataBackup project include:
+参加者には、以下のような行動を期待します。
 
-* Demonstrating empathy and kindness toward other people
-* Being respectful of differing opinions, viewpoints, and experiences
-* Giving and gracefully accepting constructive feedback
-* Accepting responsibility and apologizing to those affected by our mistakes, and learning from the experience
-* Focusing on what is best not just for us as individuals, but for the overall community
-* Providing useful feedback, bug reports, and suggestions in a respectful manner
-* Respecting the privacy and data security of other users and contributors
+* 他の参加者に敬意を持って接する
+* 相手の立場や事情を尊重する
+* 建設的かつ具体的なフィードバックを行う
+* 意見の違いを尊重する
+* プロジェクトに関係するプライバシーやデータセキュリティを尊重する
+* バックアップデータや個人ファイル等を慎重に扱う
+* 問題や脆弱性を発見した場合、可能な限り適切な方法で報告する
 
-Examples of unacceptable behavior include:
+## 許容されない行動
 
-* The use of sexualized language or imagery, and sexual attention or advances of any kind
-* Trolling, insulting or derogatory comments, and personal or political attacks
-* Public or private harassment
-* Publishing others' private information, such as a physical or email address, without their explicit permission
-* Sharing or requesting sensitive backup data, personal files, passwords, encryption keys, or other private information through project community spaces
-* Intentionally attempting to compromise, damage, or misuse SafeDataBackup or another user's data
-* Other conduct which could reasonably be considered inappropriate in a professional setting
+以下のような行動は認められません。
 
-## Enforcement Responsibilities
+* 性的な表現や性的嫌がらせ
+* 個人への侮辱、脅迫、嫌がらせ
+* 荒らし行為や意図的な挑発
+* 政治的主張等を利用した個人攻撃
+* 差別的または攻撃的な発言
+* 他者の個人情報やプライベートな情報を本人の同意なく公開すること
+* バックアップ対象となる個人ファイル、機密情報、パスワード、暗号化キー等の共有を要求すること
+* 他者に対してパスワード、暗号化キー、認証情報その他の機密情報の提供を要求すること
+* 意図的にユーザーのデータを破壊、改変、漏えい、取得または不正利用すること
+* SafeDataBackupやその利用者のデータを意図的に危険にさらす行為
+* セキュリティ機能を悪用して他者に損害を与える行為
+* その他、プロジェクト参加者にとって安全でない、または建設的でない行為
 
-Community leaders are responsible for clarifying and enforcing our standards of acceptable behavior and will take appropriate and fair corrective action in response to any behavior that they deem inappropriate, threatening, offensive, or harmful.
+## セキュリティ・プライバシーに関する注意
 
-Community leaders have the right and responsibility to remove, edit, or reject comments, commits, code, wiki edits, issues, and other contributions that are not aligned to this Code of Conduct, and will communicate reasons for moderation decisions when appropriate.
+SafeDataBackupはバックアップデータを扱うソフトウェアであるため、IssueやPull Request等へ以下の情報を投稿しないでください。
 
-## Scope
+* 個人ファイル
+* バックアップデータ
+* パスワード
+* 暗号化キー
+* 認証情報
+* 個人を特定できる情報
+* 不要なファイルパス
+* その他の機密情報
 
-This Code of Conduct applies within all community spaces related to SafeDataBackup, and also applies when an individual is officially representing the SafeDataBackup project in public spaces.
+ログやスクリーンショットを共有する場合は、個人情報や機密情報が含まれていないことを確認してください。
 
-Examples of representing the SafeDataBackup project include using an official e-mail address, posting via an official social media account, or acting as an appointed representative at an online or offline event.
+セキュリティ上の問題を報告する場合も、実際のユーザーデータを公開するのではなく、可能な限り問題の再現に必要な最小限の情報のみを使用してください。
 
-## Enforcement
+## 適用と執行
 
-Instances of abusive, harassing, or otherwise unacceptable behavior may be reported to the project maintainers through the SafeDataBackup project's GitHub repository issues.
+この行動規範に違反する行為が確認された場合、メンテナーは状況に応じて以下の対応を行うことがあります。
 
-All complaints will be reviewed and investigated promptly and fairly.
+* 投稿やコメントの編集
+* 投稿やコメントの削除
+* IssueやPull Requestの却下
+* 注意・改善要請
+* 警告
+* 一時的な参加制限
+* 永続的な参加制限
 
-All project maintainers are obligated to respect the privacy and security of the reporter of any incident.
+対応は、違反の内容、重大性、継続性その他の事情を考慮して判断します。
 
-## Enforcement Guidelines
+## 報告
 
-Project maintainers will follow these Community Impact Guidelines in determining the consequences for any action they deem in violation of this Code of Conduct:
+行動規範に関する問題や懸念は、GitHub Issues等の適切な方法で報告してください。
 
-### 1. Correction
+報告を行った人のプライバシーや安全性について、可能な限り配慮します。
 
-**Community Impact**: Use of inappropriate language or other behavior deemed unprofessional or unwelcome in the community.
+セキュリティ上の問題を報告する場合は、公開Issueで機密情報を公開しないよう注意してください。
 
-**Consequence**: A private, written warning from project maintainers, providing clarity around the nature of the violation and an explanation of why the behavior was inappropriate. A public apology may be requested.
+## 公平な対応
 
-### 2. Warning
+行動規範への違反については、可能な限り公平かつ適切に確認・判断します。
 
-**Community Impact**: A violation through a single incident or series of actions.
+報告された内容だけでなく、関連する状況や事実関係を確認したうえで対応します。
 
-**Consequence**: A warning with consequences for continued behavior. No interaction with the people involved, including unsolicited interaction with those enforcing the Code of Conduct, for a specified period of time. This includes avoiding interactions in project community spaces as well as external channels like social media. Violating these terms may lead to a temporary or permanent ban.
+## 帰属
 
-### 3. Temporary Ban
+本行動規範は、Contributor Covenant v2.0を基礎として作成・適用しています。
 
-**Community Impact**: A serious violation of community standards, including sustained inappropriate behavior.
+Contributor Covenant:
 
-**Consequence**: A temporary ban from any sort of interaction or public communication with the SafeDataBackup project for a specified period of time. No public or private interaction with the people involved, including unsolicited interaction with those enforcing the Code of Conduct, is allowed during this period. Violating these terms may lead to a permanent ban.
+https://www.contributor-covenant.org/
 
-### 4. Permanent Ban
-
-**Community Impact**: Demonstrating a pattern of violation of community standards, including sustained inappropriate behavior, harassment of an individual, or aggression toward or disparagement of classes of individuals.
-
-**Consequence**: A permanent ban from any sort of public interaction within the SafeDataBackup project community.
-
-## Attribution
-
-This Code of Conduct is adapted from the [Contributor Covenant][homepage], version 2.0, available at https://www.contributor-covenant.org/version/2/0/code_of_conduct.html.
-
-Community Impact Guidelines were inspired by [Mozilla's code of conduct enforcement ladder](https://github.com/mozilla/diversity).
-
-[homepage]: https://www.contributor-covenant.org
-
-For answers to common questions about this code of conduct, see the FAQ at https://www.contributor-covenant.org/faq. Translations are available at https://www.contributor-covenant.org/translations.
+執行に関する考え方については、Contributor CovenantおよびMozillaの関連ガイドラインを参考にしています。
