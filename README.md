@@ -1,4 +1,4 @@
-# SafeDataBackup v1.0.0
+# SafeDataBackup v1.0.1
 
 高信頼・高機能なWindows向けバックアップアプリです。
 
@@ -22,29 +22,18 @@ SafeDataBackupは、Windows向けのオフラインバックアップ・復元�
 
 ## 最新バージョン
 
-**v1.0.0**
+**v1.0.1**
 
 ### ダウンロード
 
-[最新版 v1.0.0 をダウンロード](https://github.com/Unknown777hello/SafeDataBackup/releases/tag/v1.0.0)
+[最新版 v1.0.0 をダウンロード](https://github.com/Unknown777hello/SafeDataBackup/releases/tag/v1.0.1)
 
 ## 対応環境
 
 * Windows 10 / 11
 * 64bit
-* Python 3.10以降推奨
-* Python 3.8以降でも動作する場合があります
 
 インターネット接続は必要ありません。
-
-## v1.0.0の主な変更
-
-* バージョンをv1.0.0へ更新
-* システムトレイ関連の不具合を修正
-* Zip Slip対策を追加
-* 復元前の空き容量チェックを追加
-* 復元後のSHA-256検証を追加
-* 分割アーカイブの全パート検証を追加
 
 ## 主な機能
 
@@ -109,8 +98,6 @@ SafeDataBackupは、Windows向けのオフラインバックアップ・復元�
 
 ## インストール
 
-インストーラー版 / ポータブル版を予定しています。
-
 配布物には以下のファイルを含めます。
 
 * SafeDataBackup.exe
@@ -119,16 +106,6 @@ SafeDataBackupは、Windows向けのオフラインバックアップ・復元�
 * THIRD-PARTY-LICENSES.txt
 * LICENSES/
 * アプリケーションアイコン
-
-## Python版の実行
-
-必要なPythonパッケージをインストールしてください。
-
-```bash
-pip install pyzipper pystray Pillow tkinterdnd2 sv-ttk darkdetect zstandard argon2-cffi keyring psutil
-```
-
-Python標準ライブラリについては、Python本体に含まれるものを使用します。
 
 ## 設定・履歴
 
