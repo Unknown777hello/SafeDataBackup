@@ -32,7 +32,7 @@ Copyright (c) 2026 Unknown777hello (Unknown777)
    `Original by Unknown777hello - https://github.com/Unknown777hello/SafeDataBackup`
 
    * 本ライセンスの全文または適用されるライセンス条件を同梱すること
-   * `README.md`、`PRIVACY.md`、`THIRD-PARTY-LICENSES.txt`等の必要なドキュメントを適切に維持すること
+   * `README.md`、`PRIVACY.md`、`THIRD-PARTY-LICENSE.txt`等の必要なドキュメントを適切に維持すること
 
 ## 第4条（商用利用）
 
@@ -65,7 +65,7 @@ Copyright (c) 2026 Unknown777hello (Unknown777)
 1. SafeDataBackupには、第三者が作成したソフトウェア、ライブラリその他のコンポーネントが含まれる場合があります。
 2. これらの第三者ソフトウェアについては、それぞれのライセンス条件が適用されます。
 3. 第三者ソフトウェアのライセンス条件と本ライセンスの内容が異なる場合、当該第三者ソフトウェアについては、そのライセンス条件が優先されます。
-4. 詳細については `THIRD-PARTY-LICENSES.txt` および `LICENSES/` を参照してください。
+4. 詳細については `THIRD-PARTY-LICENSE.txt` および `LICENSE/` を参照してください。
 
 ## 第9条（分離可能性）
 
@@ -111,7 +111,7 @@ The software "SafeDataBackup" may be used subject to the following license terms
    `Original by Unknown777hello - https://github.com/Unknown777hello/SafeDataBackup`
 
    * Include the full license or applicable license terms.
-   * Properly maintain required documentation such as `README.md`, `PRIVACY.md`, and `THIRD-PARTY-LICENSES.txt`.
+   * Properly maintain required documentation such as `README.md`, `PRIVACY.md`, and `THIRD-PARTY-LICENSE.txt`.
 
 ## Article 4 - Commercial Use
 
@@ -144,7 +144,7 @@ The software "SafeDataBackup" may be used subject to the following license terms
 1. SafeDataBackup may include software, libraries, or other components created by third parties.
 2. Each third-party component remains subject to its respective license.
 3. Where a third-party license differs from this license, the third-party license takes precedence for that component.
-4. See `THIRD-PARTY-LICENSES.txt` and `LICENSES/` for details.
+4. See `THIRD-PARTY-LICENSE.txt` and `LICENSE/` for details.
 
 ## Article 9 - Severability
 
