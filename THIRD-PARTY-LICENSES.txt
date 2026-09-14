@@ -9,7 +9,7 @@ SafeDataBackupは、以下の第三者製ソフトウェアおよびライブラ
 
 第三者ソフトウェアについては、本ソフトウェア独自のSafeDataBackup License v1.3よりも、それぞれの第三者ライセンスが優先して適用されます。
 
-詳細なライセンス本文については、リポジトリ内の `LICENSES/` フォルダーを参照してください。
+詳細なライセンス本文については、リポジトリ内の `LICENSE/` フォルダーを参照してください。
 
 ---
 
@@ -21,7 +21,7 @@ pyzipperは、暗号化ZIPおよびZIP関連処理に使用しています。
 
 ライセンス本文:
 
-`LICENSES/pyzipper-LICENSE.txt`
+`LICENSE/pyzipper-LICENSE.txt`
 
 ---
 
@@ -33,7 +33,7 @@ pystrayは、システムトレイ機能に使用しています。
 
 ライセンス本文:
 
-`LICENSES/pystray-LICENSE.txt`
+`LICENSE/pystray-LICENSE.txt`
 
 ---
 
@@ -45,7 +45,7 @@ Pillowは、画像・アイコン等の処理に使用しています。
 
 ライセンス本文:
 
-`LICENSES/Pillow-LICENSE.txt`
+`LICENSE/Pillow-LICENSE.txt`
 
 ---
 
@@ -57,7 +57,7 @@ tkinterdnd2は、ドラッグ＆ドロップ機能に使用しています。
 
 ライセンス本文:
 
-`LICENSES/tkinterdnd2-LICENSE.txt`
+`LICENSE/tkinterdnd2-LICENSE.txt`
 
 ---
 
@@ -69,7 +69,7 @@ sv-ttkは、Tkinterのテーマ・UI表示に使用しています。
 
 ライセンス本文:
 
-`LICENSES/sv-ttk-LICENSE.txt`
+`LICENSE/sv-ttk-LICENSE.txt`
 
 ---
 
@@ -81,7 +81,7 @@ darkdetectは、OSのライト・ダークテーマ判定に使用していま�
 
 ライセンス本文:
 
-`LICENSES/darkdetect-LICENSE.txt`
+`LICENSE/darkdetect-LICENSE.txt`
 
 ---
 
@@ -93,7 +93,7 @@ zstandardは、Zstandard圧縮処理に使用しています。
 
 ライセンス本文:
 
-`LICENSES/zstandard-LICENSE.txt`
+`LICENSE/zstandard-LICENSE.txt`
 
 ---
 
@@ -105,7 +105,7 @@ argon2-cffiは、パスワード・認証情報に関連するハッシュ処理
 
 ライセンス本文:
 
-`LICENSES/argon2-cffi-LICENSE.txt`
+`LICENSE/argon2-cffi-LICENSE.txt`
 
 ---
 
@@ -117,7 +117,7 @@ keyringは、OSの認証情報ストレージ等を利用するために使用�
 
 ライセンス本文:
 
-`LICENSES/keyring-LICENSE.txt`
+`LICENSE/keyring-LICENSE.txt`
 
 ---
 
@@ -129,7 +129,7 @@ psutilは、ディスクI/Oやシステムリソース情報の取得等に使�
 
 ライセンス本文:
 
-`LICENSES/psutil-LICENSE.txt`
+`LICENSE/psutil-LICENSE.txt`
 
 ---
 
@@ -178,12 +178,12 @@ SafeDataBackupの独自ライセンスと第三者ソフトウェアのライセ
 SafeDataBackupのインストーラー、ポータブル版、Pythonソースコードその他の配布物には、必要に応じて以下のファイルを同梱してください。
 
 * `LICENSE.md`
-* `THIRD-PARTY-LICENSES.txt`
-* `LICENSES/`
+* `THIRD-PARTY-LICENSE.txt`
+* `LICENSE/`
 
 配布時には、実際に同梱されているライブラリ・バージョンと本ファイルの記載内容に差異がないことを確認してください。
 
-ライブラリの更新や依存関係の変更を行った場合は、本ファイルおよび `LICENSES/` の内容も必要に応じて更新してください。
+ライブラリの更新や依存関係の変更を行った場合は、本ファイルおよび `LICENSE/` の内容も必要に応じて更新してください。
 
 ---
 
