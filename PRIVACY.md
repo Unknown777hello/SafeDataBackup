@@ -1,7 +1,7 @@
 # SafeDataBackup Privacy Policy
 
 最終更新日: 2026-09-09
-対象バージョン: v1.0.0
+対象バージョン: v1.0.1
 
 ## 1. 概要
 
