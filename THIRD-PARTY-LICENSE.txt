@@ -109,7 +109,7 @@ argon2-cffiは、パスワード・認証情報に関連するハッシュ処理
 
 ---
 
-9. keyring
+## 9. keyring
    License: MIT
    License information: MIT License is specified in keyring's package metadata.
    Source: https://github.com/jaraco/keyring
