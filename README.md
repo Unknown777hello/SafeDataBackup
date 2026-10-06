@@ -1,4 +1,4 @@
-# SafeDataBackup v1.0.1
+# SafeDataBackup v1.0.4
 
 高信頼・高機能なWindows向けバックアップアプリです。
 
@@ -26,7 +26,7 @@ SafeDataBackupは、Windows向けのオフラインバックアップ・復元�
 
 ### ダウンロード
 
-[最新版 v1.0.1 をダウンロード](https://github.com/Unknown777hello/SafeDataBackup/releases/tag/v1.0.1)
+[最新版 v1.0.1 をダウンロード](https://github.com/Unknown777hello/SafeDataBackup/releases/tag/v1.0.4)
 
 ## 対応環境
 
