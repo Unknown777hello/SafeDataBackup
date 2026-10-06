@@ -1,192 +1,139 @@
-SafeDataBackup v1.0.0+
-Third-Party Licenses
-
-最終更新日: 2026-09-09
-
-SafeDataBackupは、以下の第三者製ソフトウェアおよびライブラリを使用しています。
-
-本ファイルに記載されている第三者ソフトウェアには、それぞれ独自のライセンス条件があります。
-
-第三者ソフトウェアについては、本ソフトウェア独自のSafeDataBackup License v1.3よりも、それぞれの第三者ライセンスが優先して適用されます。
-
-詳細なライセンス本文については、リポジトリ内の `LICENSE/` フォルダーを参照してください。
-
----
-
-## 1. pyzipper
-
-License: MIT License
-
-pyzipperは、暗号化ZIPおよびZIP関連処理に使用しています。
-
-ライセンス本文:
-
-`LICENSE/pyzipper-LICENSE.txt`
-
----
-
-## 2. pystray
-
-License: GNU Lesser General Public License v3.0 (LGPL-3.0)
-
-pystrayは、システムトレイ機能に使用しています。
-
-ライセンス本文:
-
-`LICENSE/pystray-LICENSE.txt`
-
----
-
-## 3. Pillow
-
-License: Historical Permission Notice and Disclaimer (HPND)
-
-Pillowは、画像・アイコン等の処理に使用しています。
-
-ライセンス本文:
-
-`LICENSE/Pillow-LICENSE.txt`
-
----
-
-## 4. tkinterdnd2
-
-License: MIT License
-
-tkinterdnd2は、ドラッグ＆ドロップ機能に使用しています。
-
-ライセンス本文:
-
-`LICENSE/tkinterdnd2-LICENSE.txt`
-
----
-
-## 5. sv-ttk
-
-License: MIT License
-
-sv-ttkは、Tkinterのテーマ・UI表示に使用しています。
-
-ライセンス本文:
-
-`LICENSE/sv-ttk-LICENSE.txt`
-
----
-
-## 6. darkdetect
-
-License: BSD 3-Clause License
-
-darkdetectは、OSのライト・ダークテーマ判定に使用しています。
-
-ライセンス本文:
-
-`LICENSE/darkdetect-LICENSE.txt`
-
----
-
-## 7. zstandard
-
-License: BSD 3-Clause License
-
-zstandardは、Zstandard圧縮処理に使用しています。
-
-ライセンス本文:
-
-`LICENSE/zstandard-LICENSE.txt`
-
----
-
-## 8. argon2-cffi
-
-License: MIT License
-
-argon2-cffiは、パスワード・認証情報に関連するハッシュ処理に使用しています。
-
-ライセンス本文:
-
-`LICENSE/argon2-cffi-LICENSE.txt`
-
----
-
-## 9. keyring
-   License: MIT
-   License information: MIT License is specified in keyring's package metadata.
-   Source: https://github.com/jaraco/keyring
-
-
----
-
-## 10. psutil
-
-License: BSD 3-Clause License
-
-psutilは、ディスクI/Oやシステムリソース情報の取得等に使用しています。
-
-ライセンス本文:
-
-`LICENSE/psutil-LICENSE.txt`
-
----
-
-## 11. Python Standard Library
-
-License: Python Software Foundation License 2.0 および各標準ライブラリに適用されるライセンス
-
-SafeDataBackupはPython標準ライブラリを使用しています。
-
-Python標準ライブラリには複数のコンポーネントが含まれており、個別のライセンス条件が存在する場合があります。
-
-詳細:
-
-https://docs.python.org/3/license.html
-
----
-
-## 12. SQLite
-
-License: Public Domain
-
-SafeDataBackupでは、SQLiteをデータ保存等の目的で使用しています。
-
-SQLiteはパブリックドメインとして提供されています。
-
-詳細:
-
-https://www.sqlite.org/copyright.html
-
----
-
-# Third-Party License Priority
-
-SafeDataBackupの独自ライセンスと第三者ソフトウェアのライセンス条件が異なる場合、該当する第三者ソフトウェアについては、その第三者ライセンスが優先されます。
-
-特にLGPL等のコピーレフト系ライセンスについては、配布方法、リンク方法、変更の有無等によって追加の義務が発生する可能性があります。
-
-そのため、SafeDataBackupを再配布・改変・パッケージ化する場合は、各依存ライブラリの実際の使用バージョンおよび依存関係を確認し、それぞれの最新のライセンス条件と同梱すべきライセンス通知を確認してください。
-
-また、依存ライブラリがさらに別のライブラリを使用している場合（transitive dependencies）、それらについても個別のライセンス条件や通知義務が存在する可能性があります。
-
----
-
-# Distribution Requirements
-
-SafeDataBackupのインストーラー、ポータブル版、Pythonソースコードその他の配布物には、必要に応じて以下のファイルを同梱してください。
-
-* `LICENSE.md`
-* `THIRD-PARTY-LICENSE.txt`
-* `LICENSE/`
-
-配布時には、実際に同梱されているライブラリ・バージョンと本ファイルの記載内容に差異がないことを確認してください。
-
-ライブラリの更新や依存関係の変更を行った場合は、本ファイルおよび `LICENSE/` の内容も必要に応じて更新してください。
-
----
-
-# Disclaimer
-
-第三者ソフトウェアは、それぞれの作者または権利者によって提供されています。
-
-第三者ソフトウェアの品質、動作、セキュリティ、可用性等について、SafeDataBackupの作者は保証するものではありません。
-
-各第三者ソフトウェアの利用条件については、それぞれのライセンス本文を確認してください。
+THIRD PARTY LICENSES
+SafeDataBackup - Third Party Open Source Licenses
+
+適用バージョン: v1.0.4
+最終更新: 2026-10-06
+ライセンス: SafeDataBackup License v1.0 (LICENSE.md)
+
+本ファイルは SafeDataBackup が使用している第三者ライブラリのライセンス情報を記載しています。
+自作コードは独自ライセンスですが、以下のライブラリには各ライセンスが優先適用されます(LICENSE.md 第8条)。
+SafeDataBackup 本体はエントリスクリプト(SafeDataBackup.py)と backup_app パッケージ(複数モジュール)
+として実装されており、現在はそれを PyInstaller でビルドしたインストーラー版(SafeDataBackup.exe)のみを
+公開しています。将来的にPythonソース版も公開する可能性があります。以下2〜10はすべて任意
+インストールの拡張機能用ライブラリです(未インストールでも本体は動作し、該当機能のみ自動的に無効化されます)。
+
+1. pyinstaller - GPL-2.0-only WITH Bootloader Exception
+
+- Package: pyinstaller 6.x (ビルドツールのみ)
+- Copyright: PyInstaller Development Team
+- Source: https://github.com/pyinstaller/pyinstaller
+- 説明: インストーラー版(SafeDataBackup.exe)のビルドツールとしてのみ使用。
+  Bootloader Exceptionにより、生成されたバイナリにはGPLは感染しません。配布義務なし。
+
+2. pyzipper - MIT License
+
+- Package: pyzipper
+- Copyright: Daniel Hillier and contributors
+- Source: https://github.com/danifus/pyzipper
+- 用途: バックアップアーカイブのAES-256暗号化(暗号化バックアップ機能)
+- ライセンス全文: LICENSES/pyzipper-MIT.txt
+
+3. pystray - LGPL-3.0-or-later
+
+- Package: pystray
+- Copyright: Moses Palmér and contributors
+- Source: https://github.com/moses-palmer/pystray
+- 用途: システムトレイ常駐機能
+- LGPLのため、ライブラリ自体を改変して再配布する場合は当該ライブラリのソース公開等、
+  LGPLの条項に従う必要があります(SafeDataBackup本体の自作コードへの感染はありません)。
+  LICENSE.md 第2条のリバースエンジニアリング禁止は、LGPLが認める範囲(ライブラリの改変及びそのデバッグ目的を含む)には適用されません。
+- ライセンス全文: LICENSES/pystray-LGPL-3.0.txt
+
+4. Pillow (PIL Fork) - HPND
+
+- Package: Pillow
+- Copyright: Alex Clark and contributors
+- Source: https://github.com/python-pillow/Pillow
+- 用途: システムトレイアイコン画像生成、部分復元時の画像サムネイルプレビュー
+- ライセンス全文: LICENSES/Pillow-HPND.txt
+
+5. tkinterdnd2 - MIT License
+
+- Package: tkinterdnd2
+- Copyright: pmgagne, Eliav2 and contributors
+- Source: https://github.com/pmgagne/tkinterdnd2
+- 用途: バックアップ対象フォルダのドラッグ&ドロップ追加、復元のドラッグ書き出し
+- ライセンス全文: LICENSES/tkinterdnd2-MIT.txt
+
+6. zstandard (python-zstandard) - BSD-3-Clause
+
+- Package: zstandard
+- Copyright: Gregory Szorc and contributors
+- Source: https://github.com/indygreg/python-zstandard
+- 用途: zstd圧縮方式でのアーカイブ圧縮(Python 3.14+のzipfileで有効な場合)
+- ライセンス全文: LICENSES/zstandard-BSD-3-Clause.txt
+
+7. darkdetect - BSD-3-Clause
+
+- Package: darkdetect
+- Copyright: Alberto Sottile and contributors
+- Source: https://github.com/albertosottile/darkdetect
+- 用途: OSのダーク/ライトテーマへの自動追従
+- ライセンス全文: LICENSES/darkdetect-BSD-3-Clause.txt
+
+8. argon2-cffi - MIT License
+
+- Package: argon2-cffi
+- Copyright: Hynek Schlawack and contributors
+- Source: https://github.com/hynek/argon2-cffi
+- 用途: マスターパスワードのArgon2idハッシュ化
+- ライセンス全文: LICENSES/argon2-cffi-MIT.txt
+
+9. keyring - MIT License
+
+- Package: keyring
+- Copyright: Kang Zhang, Jason R. Coombs and contributors
+- Source: https://github.com/jaraco/keyring
+- 用途: マスターパスワードのハッシュ・ソルトをOS標準の資格情報ストア
+  (Windows資格情報マネージャー/macOSキーチェーン/Linuxのシークレットサービス)へ保存
+- ライセンス全文: LICENSES/keyring-MIT.txt
+
+10. psutil - BSD-3-Clause
+- Package: psutil
+- Copyright: Giampaolo Rodola and contributors
+- Source: https://github.com/giampaolo/psutil
+- 用途: ディスク使用率の監視・自動調整
+- ライセンス全文: LICENSES/psutil-BSD-3-Clause.txt
+
+11. SQLite - Public Domain
+
+- Package: SQLite (Python標準ライブラリ sqlite3 経由で利用)
+- Copyright: D. Richard Hipp
+- Source: https://www.sqlite.org/
+- 用途: バックアップ履歴・マニフェストの永続化(backup.db)
+
+12. Python 本体 / 標準ライブラリ - PSF-2.0
+
+- tkinter, sqlite3, hashlib, json, os, sys, threading, logging, zipfile, zlib 等
+- インストーラー版(SafeDataBackup.exe)にはPyInstallerによりPythonランタイムが同梱されます
+- Copyright: Python Software Foundation
+- License: Python Software Foundation License 2.0
+- 全文: https://docs.python.org/3/license.html
+
+13. Tcl/Tk - Tcl/Tk License (BSD系)
+
+- Package: Tcl/Tk (tkinter経由で利用、Pythonランタイムと共に同梱)
+- Copyright: Regents of the University of California, Sun Microsystems, Inc., Scriptics Corporation, ActiveState Corporation and other parties
+- 全文: https://www.tcl.tk/software/tcltk/license.html
+
+※ このほか、Pythonランタイム(_ssl, _ctypes等)が依存するOpenSSL、libffi等の
+  ライブラリが同梱される場合があります。それぞれのライセンスが優先適用されます。
+
+配布物への同梱について
+
+- インストーラー版: {app}\LICENSE.md, {app}\THIRD-PARTY-LICENSES.txt, {app}\README.txt,
+  {app}\LICENSES\ フォルダを同梱
+- Python版(将来公開する場合): リポジトリ直下に LICENSE.md, THIRD-PARTY-LICENSES.txt,
+  README.txt, LICENSES\ フォルダを同梱
+
+推奨 requirements.txt (Python版を公開する場合。すべて任意インストール)
+
+pyzipper
+pystray
+Pillow
+tkinterdnd2
+zstandard
+darkdetect
+argon2-cffi
+keyring
+psutil
